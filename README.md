@@ -2,7 +2,7 @@
 
 Mosquitojs is an extremely light dependency injection library for JavaScript. Inspired by AngularJS, mosquitojs enables the easy creation of modules, controllers and services; thus facilitating clean reusable code within your JavaScript projects.
 
-The mosquitojs-game-loop module utilises mosquitojs to enable the simple integration of a game loop within your mosquito projects.
+The mosquitojs-webgl module utilises mosquitojs to enable WebGL access within your mosquito projects.
 
 ```html
 <script src="mosquito.min.js"></script>
