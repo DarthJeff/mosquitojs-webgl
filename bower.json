@@ -1,0 +1,12 @@
+{
+    "name": "mosquitojs-webgl",
+    "description": "A WebGL module utilising mosquitojs",
+    "license": "MIT",
+    "dependencies": {
+        "mosquitojs": "~0.2.4"
+    },
+    "ignore": [
+        "node_modules",
+        "app/bower_components"
+    ]
+}

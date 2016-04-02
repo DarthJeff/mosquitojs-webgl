@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>Mosquito-WebGL Testing</title>
+    <script type="text/javascript" src="app/bower_components/mosquitojs/dist/mosquito.min.js"></script>
+    <script type="text/javascript" src="app/js/webgl.module.js"></script>
+    <script type="text/javascript" src="app/js/webgl.service.js"></script>
+</head>
+Mosquito-Game Testing
+<body>
+    <canvas id="glCanvas" width="640" height="480">
+
+    <script type="text/javascript">
+        "use strict";
+
+        var webGLModule = mosquito.module('webGLModule').run(['$webGL', function($webGL){
+            $webGL.initialise('glCanvas');
+
+            var gl = $webGL.getGL();
+            gl.clearColor(0.0, 0.8, 0.0, 1.0);
+            gl.clear(gl.COLOR_BUFFER_BIT);
+        }]);
+
+    </script>
+</body>
